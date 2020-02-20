@@ -52,7 +52,7 @@ public class Funcionario implements Serializable {
 	@Column(name = "qtd_horas_trabalho_dia", nullable = true)
 	private Double qtdHorasTrabalhoDia;
 
-	@Column(name = "qtd_horas_almoco", nullable = false)
+	@Column(name = "qtd_horas_almoco", nullable = true)
 	private Double qtdHorasAlmoco;
 
 	@Enumerated(EnumType.STRING)
